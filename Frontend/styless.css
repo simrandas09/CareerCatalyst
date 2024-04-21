@@ -1,0 +1,141 @@
+/* Add your CSS styling here */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Header Styles */
+.header {
+    background-color: #594c8e; /* Purple header */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font */
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links ul li {
+    margin-left: 20px;
+}
+
+.nav-links ul li:first-child {
+    margin-left: 0;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500; /* Added font weight */
+}
+
+.nav-links ul li a:hover {
+    color: #ccc; /* Light gray on hover */
+}
+
+/* About Us Section Styles */
+
+.about-us {
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    height: 100vh; /* Set the height of the section to 100% of the viewport height */
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Align the content center horizontally */
+}
+
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666; /* Medium gray text color */
+}
+
+.about-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+}
+
+.about-content ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+}
+
+.about-content ul li strong {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #594c8e; /* Purple footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.icons a:hover {
+    color: #ccc; /* Light gray on hover */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #594c8e; /* Purple footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.about-content center {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+

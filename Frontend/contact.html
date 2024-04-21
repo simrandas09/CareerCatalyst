@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="main">
+                <div class="navbar">
+                    <h2 class="logo">CareerCatalyst</h2>
+                    <div class="nav-links" id="navLinks">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            
+                            <li><a href="aboutus.html">Aboutus</a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2 style="font-family: Arial, sans-serif;">Get in touch</h2>
+                    <hr style="border-color: #fff;">
+                </div>
+                <input type="hidden" name="access_key" value="54fa50fc-a875-4169-af84-f06824f49b50">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit" class="submit-button">Submit <i class="fas fa-arrow-right"></i></button>
+            </form>
+            <div class="contact-right">
+                <!-- Add content for contact-right if needed -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 CareerCatalyst. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

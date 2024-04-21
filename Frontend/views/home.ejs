@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareerCatalyst</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <div class="main">
+          <div class="navbar">
+            <h2 class="logo">CareerCatalyst</h2>
+          </div>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a hre="">HOME</a></li>
+            <li><button id="runPythonButton">Run Python Script</button></li>
+            <!-- Button to trigger the Python script -->
+          </ul>
+        </div>
+      </nav>
+
+      <div class="text-box">
+        <h1>"Unlock Your Future: Discover Your Ideal Career Path with Us"</h1>
+        <p>
+          "Discover your ideal career path effortlessly with our intuitive
+          chatbot. Let us guide you towards a future filled with purpose and
+          success."
+        </p>
+        <a href="aboutus.html" class="hero-btn">Know More About us</a>
+      </div>
+    </section>
+
+    <script defer src="javascript.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- EJS script to trigger the /run-python endpoint -->
+    <script>
+      document
+        .getElementById("runPythonButton")
+        .addEventListener("click", function () {
+          fetch("/run-python") // Sends a GET request to /run-python endpoint
+            .then((response) => {
+              if (!response.ok) {
+                throw new Error("Network response was not ok");
+              }
+              return response.text();
+            })
+            .then((data) => {
+              console.log(data);
+              alert("Python script executed successfully!");
+            })
+            .catch((error) => {
+              console.error(
+                "There was a problem with the fetch operation:",
+                error
+              );
+              alert("Failed to execute Python script.");
+            });
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f9f9f9; /* Light gray background */
+}
+
+/* Header Styles */
+.header {
+    background-color: #594c8e; /* Purple header */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font */
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links ul li {
+    margin-left: 20px;
+}
+
+.nav-links ul li:first-child {
+    margin-left: 0;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links ul li a:hover {
+    color: #ccc; /* Light gray on hover */
+}
+
+/* Contact Us Section Styles */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    margin-top: 20px;
+}
+
+.contact-left {
+    background-color: #fff; /* White background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 600px;
+}
+
+.contact-left-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-left-title h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+    font-family: "Arial", sans-serif;
+}
+
+.contact-left-title hr {
+    border: none;
+    height: 2px;
+    width: 60px;
+    background-color: #333; /* Dark color for underline */
+    margin-bottom: 20px;
+}
+
+.contact-inputs,
+.contact-left textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+}
+
+.contact-inputs:focus,
+.contact-left textarea:focus {
+    border-color: #594c8e; /* Purple color when focused */
+    outline: none;
+}
+
+.submit-button {
+    background-color: #594c8e; /* Purple button background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #473b6f; /* Darker purple on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #594c8e; /* Purple footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.icons a:hover {
+    color: #ccc; /* Light gray on hover */
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #ccc; /* Light gray text color */
+}

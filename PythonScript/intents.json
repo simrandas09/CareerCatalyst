@@ -1,0 +1,208 @@
+{
+   "intents": [
+     {
+       "tag": "Applications Developer",
+       "patterns": ["Applications Developer"],
+       "responses": ["A suitable career for you is Applications Developer."],
+       "context": [""]
+     },
+     {
+       "tag": "Business Intelligence Analyst",
+       "patterns": ["Business Intelligence Analyst"],
+       "responses": ["A suitable career for you is Business Intelligence Analyst."],
+       "context": [""]
+     },
+     {
+       "tag": "Business Systems Analyst",
+       "patterns": ["Business Systems Analyst"],
+       "responses": ["A suitable career for you is Business Systems Analyst."],
+       "context": [""]
+     },
+     {
+       "tag": "CRM Business Analyst",
+       "patterns": ["CRM Business Analyst"],
+       "responses": ["A suitable career for you is CRM Business Analyst."],
+       "context": [""]
+     },
+     {
+       "tag": "CRM Technical Developer",
+       "patterns": ["CRM Technical Developer"],
+       "responses": ["A suitable career for you is CRM Technical Developer."],
+       "context": [""]
+     },
+     {
+       "tag": "Data Architect",
+       "patterns": ["Data Architect"],
+       "responses": ["A suitable career for you is Data Architect."],
+       "context": [""]
+     },
+     {
+       "tag": "Database Administrator",
+       "patterns": ["Database Administrator"],
+       "responses": ["A suitable career for you is Database Administrator."],
+       "context": [""]
+     },
+     {
+       "tag": "Database Developer",
+       "patterns": ["Database Developer"],
+       "responses": ["A suitable career for you is Database Developer."],
+       "context": [""]
+     },
+     {
+       "tag": "Database Manager",
+       "patterns": ["Database Manager"],
+       "responses": ["A suitable career for you is Database Manager."],
+       "context": [""]
+     },
+     {
+       "tag": "Design & UX",
+       "patterns": ["Design & UX"],
+       "responses": ["A suitable career for you is Design & UX."],
+       "context": [""]
+     },
+     {
+       "tag": "E-Commerce Analyst",
+       "patterns": ["E-Commerce Analyst"],
+       "responses": ["A suitable career for you is E-Commerce Analyst."],
+       "context": [""]
+     },
+     {
+       "tag": "Information Security Analyst",
+       "patterns": ["Information Security Analyst"],
+       "responses": ["A suitable career for you is Information Security Analyst."],
+       "context": [""]
+     },
+     {
+       "tag": "Information Technology Auditor",
+       "patterns": ["Information Technology Auditor"],
+       "responses": ["A suitable career for you is Information Technology Auditor."],
+       "context": [""]
+     },
+     {
+       "tag": "Information Technology Manager",
+       "patterns": ["Information Technology Manager"],
+       "responses": ["A suitable career for you is Information Technology Manager."],
+       "context": [""]
+     },
+     {
+       "tag": "Mobile Applications Developer",
+       "patterns": ["Mobile Applications Developer"],
+       "responses": ["A suitable career for you is Mobile Applications Developer."],
+       "context": [""]
+     },
+     {
+       "tag": "Network Engineer",
+       "patterns": ["Network Engineer"],
+       "responses": ["A suitable career for you is Network Engineer."],
+       "context": [""]
+     },
+     {
+       "tag": "Network Security Administrator",
+       "patterns": ["Network Security Administrator"],
+       "responses": ["A suitable career for you is Network Security Administrator."],
+       "context": [""]
+     },
+     {
+       "tag": "Network Security Engineer",
+       "patterns": ["Network Security Engineer"],
+       "responses": ["A suitable career for you is Network Security Engineer."],
+       "context": [""]
+     },
+     {
+       "tag": "Portal Administrator",
+       "patterns": ["Portal Administrator"],
+       "responses": ["A suitable career for you is Portal Administrator."],
+       "context": [""]
+     },
+     {
+       "tag": "Programmer Analyst",
+       "patterns": ["Programmer Analyst"],
+       "responses": ["A suitable career for you is Programmer Analyst."],
+       "context": [""]
+     },
+     {
+       "tag": "Project Manager",
+       "patterns": ["Project Manager"],
+       "responses": ["A suitable career for you is Project Manager."],
+       "context": [""]
+     },
+     {
+       "tag": "Quality Assurance Associate",
+       "patterns": ["Quality Assurance Associate"],
+       "responses": ["A suitable career for you is Quality Assurance Associate."],
+       "context": [""]
+     },
+     {
+       "tag": "Software Developer",
+       "patterns": ["Software Developer"],
+       "responses": ["A suitable career for you is Software Developer."],
+       "context": [""]
+     },
+     {
+       "tag": "Software Engineer",
+       "patterns": ["Software Engineer"],
+       "responses": ["A suitable career for you is Software Engineer."],
+       "context": [""]
+     },
+     {
+       "tag": "Software Quality Assurance (QA)",
+       "patterns": ["Software Quality Assurance (QA)"],
+       "responses": ["A suitable career for you is Software Quality Assurance (QA)."],
+       "context": [""]
+     },
+     {
+       "tag": "Software Systems Engineer",
+       "patterns": ["Software Systems Engineer"],
+       "responses": ["A suitable career for you is Software Systems Engineer."],
+       "context": [""]
+     },
+     {
+       "tag": "Solutions Architect",
+       "patterns": ["Solutions Architect"],
+       "responses": ["A suitable career for you is Solutions Architect."],
+       "context": [""]
+     },
+     {
+       "tag": "Systems Analyst",
+       "patterns": ["Systems Analyst"],
+       "responses": ["A suitable career for you is Systems Analyst."],
+       "context": [""]
+     },
+     {
+       "tag": "Systems Security Administrator",
+       "patterns": ["Systems Security Administrator"],
+       "responses": ["A suitable career for you is Systems Security Administrator."],
+       "context": [""]
+     },
+     {
+       "tag": "Technical Engineer",
+       "patterns": ["Technical Engineer"],
+       "responses": ["A suitable career for you is Technical Engineer."],
+       "context": [""]
+     },
+     {
+       "tag": "Technical Services/Help Desk/Tech Support",
+       "patterns": ["Technical Services/Help Desk/Tech Support"],
+       "responses": ["A suitable career for you is Technical Services/Help Desk/Tech Support."],
+       "context": [""]
+     },
+     {
+       "tag": "Technical Support",
+       "patterns": ["Technical Support"],
+       "responses": ["A suitable career for you is Technical Support."],
+       "context": [""]
+     },
+     {
+       "tag": "UX Designer",
+       "patterns": ["UX Designer"],
+       "responses": ["A suitable career for you is UX Designer."],
+       "context": [""]
+     },
+     {
+       "tag": "Web Developer",
+       "patterns": ["Web Developer"],
+       "responses": ["A suitable career for you is Web Developer."],
+       "context": [""]
+     }
+   ]
+ }
